@@ -1,0 +1,19 @@
+{
+  "type" : "object",
+  "id" : "urn:jsonschema:io:gravitee:resource:mongodb:configuration:MongoDBResourceConfiguration",
+  "properties" : {
+    "uri" : {
+      "title": "MongoDB Connection URI",
+      "type" : "string",
+      "default": "mongodb://localhost:27017"
+    },
+    "database" : {
+      "title": "MongoDB Database",
+      "type" : "string"
+    }
+  },
+  "required": [
+    "uri",
+    "database"
+  ]
+}
